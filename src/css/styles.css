@@ -39,3 +39,11 @@ hr {
 .bg-light {
   background-color: #e7dfdd;
 }
+
+.light {
+  background-color: #f6e7cdff;
+}
+
+.dark {
+  background-color: #2b283cff;
+}
