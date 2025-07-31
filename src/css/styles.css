@@ -47,3 +47,27 @@ hr {
 .dark {
   background-color: #2b283cff;
 }
+
+.cell-text {
+  position: relative;
+  top: 3px;
+  font-size: xx-large;
+  color: #3c3150;
+  font-family: cursive;
+}
+.cell {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+}
+
+.board {
+  border: 2px solid #a67686;
+  left: calc(50% - 75px);
+  top: 200px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 154px;
+}

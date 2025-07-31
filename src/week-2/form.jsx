@@ -1,10 +1,9 @@
-import { useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
 function Form() {
   const [fName, setFName] = useLocalStorage("fName", "");
   const [lName, setLName] = useLocalStorage("lName", "");
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useLocalStorage("theme", "light");
 
   const handleSubmit = () => {
     console.log("Submitted");

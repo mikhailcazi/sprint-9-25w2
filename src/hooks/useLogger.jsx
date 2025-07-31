@@ -1,5 +1,5 @@
-function useLogger(logValue) {
-  console.log(logValue);
+function useLogger() {
+  return console.log;
 }
 
 export default useLogger;
