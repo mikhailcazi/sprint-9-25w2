@@ -1,14 +1,13 @@
 import "./App.css";
 import "./css/styles.css";
-import Counter from "./week-1/Counter";
-import Form from "./week-2/form";
-import TicTacToe from "./week-2/tic-tac-toe";
-import UpgradedCounter from "./week-2/UpgradedCounter";
+import ColorWheel from "./sprint-10-week-1/ColorWheel";
+import Counter from "./sprint-10-week-1/Counter2";
+import Game from "./sprint-10-week-1/Game";
 
 function App() {
   return (
     <>
-      <TicTacToe />
+      <Game />
     </>
   );
 }
